@@ -1,6 +1,5 @@
 body{
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
 }
 .col-sm{
   text-align: center;
@@ -20,12 +19,30 @@ body{
 }
 /* Title Bar with the shopping cart*/
 .titleBar{
-  display: block;
-  padding: 10% auto 10% auto;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  width: 100%;
+  height: 30%;
+  margin: 20px 0;
 }
 .title{
   font-family: 'Rammetto One', cursive;
+  width: 75%;
+  text-align: center;
 }
 .shopCart{
+  width: 25%;
 
+
+}
+.shopCartText{
+}
+/*Main image div with the logo*/
+.mainImage{
+  background-image: url(../images/logo.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
