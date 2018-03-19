@@ -1,0 +1,31 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+.col-sm{
+  text-align: center;
+}
+.col{
+  text-align: center;
+}
+/*Top bar with informations like phone number and email*/
+.topBar{
+  background-color: #555555;
+  display: block;
+  padding: 5px 0 5px 0;
+}
+.infoText{
+  margin-left: 7px;
+  margin-right: 10px;
+}
+/* Title Bar with the shopping cart*/
+.titleBar{
+  display: block;
+  padding: 10% auto 10% auto;
+}
+.title{
+  font-family: 'Rammetto One', cursive;
+}
+.shopCart{
+
+}
