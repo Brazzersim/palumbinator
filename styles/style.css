@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 h1{
@@ -48,4 +49,19 @@ h1{
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/*Menu selector*/
+.selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0073B6;
+}
+.selectorButton{
+  margin: 10px 30px;
+  color: #BCDAEC;
+}
+.selectorButton:hover{
+  color: #FFFFFF;
+  text-decoration: none;
 }
