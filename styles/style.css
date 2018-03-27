@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    height: 100%;
 }
 
 h1{
@@ -39,18 +39,14 @@ h1{
 }
 
 .title-bar .cart span{
-    vertical-align: 5px;
+    vertical-align: 6px;
 }
 
-/*Main image div with the logo*/
-.mainImage {
-    background-image: url(../images/logo.jpg);
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.title-bar .cart a:hover{
+    text-decoration: none;
 }
-/*Menu selector*/
+
+/*MENU SELECTOR */
 .selector{
   display: flex;
   align-items: center;
@@ -64,4 +60,39 @@ h1{
 .selectorButton:hover{
   color: #FFFFFF;
   text-decoration: none;
+}
+
+/*Main image div with the logo*/
+
+.mainImage img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Products page*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+}
+
+[class*="fig-"] span {
+    display: block;
+    font-weight: bold;
+}
+
+[class*="fig-"] {
+    margin: 2%;
+}
+
+[class*="fig-"] img {
+    height: 170px;
+    width: 170px;
 }
