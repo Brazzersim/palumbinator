@@ -67,32 +67,58 @@ h1{
 .mainImage img{
     width: 100%;
     height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /*Products page*/
+.productsSign{
+  text-align: center;
+  margin-top: 3%;
+}
 
 .products {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    padding: 2em;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
 }
 
 [class*="fig-"] span {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 [class*="fig-"] {
-    margin: 2%;
+  margin: 2%;
 }
 
 [class*="fig-"] img {
-    height: 170px;
-    width: 170px;
+  height: 170px;
+  width: 170px;
+}
+
+/*Background image with 3 lorem ipsums and icons*/
+.description .container{
+  border-top: 1px solid black;
+}
+.description .container div .col-sm{
+  text-align: center;
+}
+.description .container div .col-sm span{
+  font-size: 5.5rem;
+}
+.description .container div .col-sm span:hover{
+  opacity: 0.6;
+}
+
+/*Footer*/
+.footerNewsletter{
+  background-color: lightgrey;
+  display: block;
+  padding-left: 55%;
+  padding-top: 10px;
+}
+.footerInfo{
 }
