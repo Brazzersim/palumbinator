@@ -102,6 +102,7 @@ h1{
 /*Background image with 3 lorem ipsums and icons*/
 .description .container{
   border-top: 1px solid black;
+  padding: 1% 0;
 }
 .description .container div .col-sm{
   text-align: center;
