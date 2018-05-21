@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="styles/homepage.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
           integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
@@ -16,7 +17,6 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Roboto" rel="stylesheet">
     <link href="images/favicon.png" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css" type="text/css">
     <title>home - Smoker Store</title>
 </head>
 <body>
@@ -63,7 +63,7 @@
                       </div>
                   </div>
                   <div class="col-md-4">
-                      <a class = "profile">(Sign-in)</a>
+                      <a href="#" class = "profile btn btn-primary">(Sign-in)</a>
                       <div class = "plogin">
                         <form method = "post" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                           <?php echo $GLOBALS['$msgerr'] ?>
@@ -110,57 +110,66 @@
     </div>
     <!--Selector of 3 pages-->
     <div class="selector">
-      <a href="#" class="selectorButton">Home</a>
-      <div class="dropdown show">
-        <a class="selectorButton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Products
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">Music</a>
-          <a class="dropdown-item" href="#">Computers</a>
-          <a class="dropdown-item" href="#">Others</a>
+      <a href="#a" onclick="showHome()" class="selectorButton">Home</a>
+      <a href="#a" onclick="showProducts()" class="selectorButton">E-Cigs</a>
+      <a href="#a" onclick="showContacts()" class="selectorButton">Contacts</a>
+    </div>
+    <!--Selector Page-->
+    <div class="productsLabel">
+      <h2 class="productsSign">Le nostre offerte:</h2>
+      <div class="products">
+        <div class = "fig-1">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
+        </div>
+        <div class = "fig-2">
+            <img src = "images/products/wismec.png"  />
+            <span>Wismec V583 master model cleaner</span>
+            <span><br />$50,00</span>
+        </div>
+        <div class = "fig-3">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
+        </div>
+        <div class = "fig-4">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
+        </div>
+        <div class = "fig-5">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
+        </div>
+        <div class = "fig-6">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
+        </div>
+        <div class = "fig-7">
+            <img src = "images/products/athena.jpg"  />
+            <span>Athena X 3905 full compactable</span>
+            <span><br />$30,00</span>
         </div>
       </div>
-      <a href="#" class="selectorButton">Home</a>
     </div>
-    <!--Products page-->
-    <h2 class="productsSign">Le nostre offerte:</h2>
-    <div class="products">
-      <div class = "fig-1">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
+    <div class="homeLabel">
+      <div class="jumbotron">
+        <h1 class="display-4">Benvenuto da SmokerStore</h1>
+        <p class="lead">Il nostro punto di forza è unire qualità e costi contenuti.</p>
+        <hr class="my-4">
+        <p>Trova il prodotto più adatto a te</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" onclick="showProducts()"  role="button">Vai ai prodotti</a>
+        </p>
       </div>
-      <div class = "fig-2">
-          <img src = "images/products/wismec.png"  />
-          <span>Wismec V583 master model cleaner</span>
-          <span><br />$50,00</span>
-      </div>
-      <div class = "fig-3">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
-      </div>
-      <div class = "fig-4">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
-      </div>
-      <div class = "fig-5">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
-      </div>
-      <div class = "fig-6">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
-      </div>
-      <div class = "fig-7">
-          <img src = "images/products/athena.jpg"  />
-          <span>Athena X 3905 full compactable</span>
-          <span><br />$30,00</span>
-      </div>
+    </div>
+    <div class="contactsLabel">
+      <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+      <input class="form-control" type="text" placeholder="Default input">
+      <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
     </div>
     <!--Background image with 3 lorem ipsums and icons-->
     <div class="description">
@@ -184,6 +193,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!--Footers-->
     <div class="footerNewsletter">
       <form class="form-inline">
@@ -217,6 +227,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
     <script>
         $(document).ready(function(){
             $(".profile").click(function(){

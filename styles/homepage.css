@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+/*************
+ ** HEADING **
+ *************/
+
+.top-bar {
+    background-color: #555555;
+    padding: 10px 0;
+    color: white;
+}
+
+.top-bar span{
+    vertical-align: 5px;
+    margin: 15px;
+}
+
+.plogin {
+    padding: 0.8em;
+    display: none;
+    position: absolute;
+    background-color: #555555;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    margin-top: 3%;
+    z-index: 1;
+    opacity: 0.93;
+    max-width: 70%;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.plogin > h6 {
+    color: white;
+    margin-top: 6%;
+}
+
+.plogin > input {
+    width: auto;
+    border-radius: 4px;
+    padding: 0.2em;
+    border: none;
+    font-size: 90%;
+    color: #555555;
+    box-shadow: 2px 2px white;
+    clear: both;
+    flex: 1;
+}
+
+
+
+/**Title bar**/
+
+.title-bar{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.title-bar .title{
+    font-family: 'Rammetto One', cursive;
+    font-weight: 700; /* bold */
+}
+
+.title-bar .cart a{
+    display: block;
+    margin-top: 10px;
+}
+
+.title-bar .cart span{
+    vertical-align: 6px;
+}
+
+.title-bar .cart a:hover{
+    text-decoration: none;
+}
+
+/*MENU SELECTOR */
+.selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0073B6;
+}
+.selectorButton{
+  margin: 10px 30px;
+  color: #BCDAEC;
+}
+.selectorButton:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*Main image div with the logo*/
+
+.mainImage img{
+    width: 100%;
+    height: auto;
+}
+
+/*Selector Page*/
+.productsSign{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+}
+
+[class*="fig-"] span {
+  display: block;
+  font-weight: bold;
+}
+
+[class*="fig-"] {
+  margin: 3%;
+}
+
+[class*="fig-"] img {
+  height: 170px;
+  width: 170px;
+}
+
+.productsLabel{
+  display: none;
+}
+
+.homeLabel{
+  display: block;
+}
+
+.contactsLabel{
+  display: none;
+}
+
+/*Background image with 3 lorem ipsums and icons*/
+.description .container{
+  border-top: 1px solid black;
+}
+.description .container div .col-sm{
+  text-align: center;
+}
+.description .container div .col-sm span{
+  font-size: 5.5rem;
+}
+.description .container div .col-sm span:hover{
+  opacity: 0.6;
+}
+
+/*Footer*/
+.footerNewsletter{
+  background-color: lightgrey;
+  display: block;
+  padding-left: 55%;
+  padding-top: 10px;
+}
+.footerInfo{
+}
