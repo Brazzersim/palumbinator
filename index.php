@@ -119,7 +119,7 @@
       <h2 class="productsSign">Le nostre offerte:</h2>
       <div class="products">
         <div class = "fig-1">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
@@ -129,27 +129,27 @@
             <span><br />$50,00</span>
         </div>
         <div class = "fig-3">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
         <div class = "fig-4">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
         <div class = "fig-5">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
         <div class = "fig-6">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
         <div class = "fig-7">
-            <img src = "images/products/athena.jpg"  />
+            <img src = "images/products/athena.png"  />
             <span>Athena X 3905 full compactable</span>
             <span><br />$30,00</span>
         </div>
@@ -167,9 +167,21 @@
       </div>
     </div>
     <div class="contactsLabel">
-      <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
-      <input class="form-control" type="text" placeholder="Default input">
-      <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+        <div class = "contacts">
+            <p><strong style = "color: #0073B6; font-size: 34px;">TECH</strong> store<br>
+            Indirizzo: Via Etnea n.60<br>
+            Telefono: +39 33374717<br>
+            email: edoardopalumbo@gmail.com</p>
+        </div>
+        <div class = "contacts">
+            Nome *
+            <input class="contactsForm" type="text" placeholder="Default input">
+            E-mail *
+            <input class="contactsForm" type="text" placeholder="Default input">
+            Messaggio *
+            <input class="contactsForm" type="textarea" placeholder="Default input">
+            <input class = "contactsForm" style = "background-color: #0073B6; color: white; border-radius: 4px; height: 40px;" type = "button" value = "invia" />
+        </div>
     </div>
     <!--Background image with 3 lorem ipsums and icons-->
     <div class="description">

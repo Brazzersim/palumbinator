@@ -147,9 +147,32 @@ h1{
   display: block;
 }
 
-.contactsLabel{
-  display: none;
+.contactsLabel {
+    display: none;
+    height: 40%;
+    padding: 3em;
 }
+
+.contactsLabel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contacts{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.contacts > p { text-align: center; line-height: 45px; font-weight: lighter;}
+
+.contactsForm {
+    display: block;
+    width: 40%;
+    margin-bottom: 13px;
+}
+
 
 /*Background image with 3 lorem ipsums and icons*/
 .description .container{
